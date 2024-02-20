@@ -1,5 +1,5 @@
 CREATE TABLE Stock (
-    product_id serial PRIMARY KEY,
+    product_id serial,
     depot_id serial,
     quantity integer,
     FOREIGN KEY (product_id) REFERENCES product(product_id),
